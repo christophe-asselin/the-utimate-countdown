@@ -17,6 +17,7 @@ const updateTimer = (timeDifference) => {
 
 const letsCelebrate = () => {
     document.getElementById('timer').innerHTML = '0d 0h 0m 0s';
+    document.getElementById('timer').style.color = 'red';
     clearInterval(timer);
 
     const divs = document.getElementsByClassName('fireworks');
