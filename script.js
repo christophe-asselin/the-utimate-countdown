@@ -1,4 +1,4 @@
-const THE_DAY = new Date(2020, 3, 7, 0, 0, 0, 0).getTime();
+const THE_DAY = new Date(2019, 11, 28, 0, 0, 0, 0).getTime();
 
 const LEFT_CELEBRATION_GIF_NAMES = ['banana.gif', 'datboi.gif'];
 const RIGHT_CELEBRATION_GIF_NAMES = ['snoop.gif', 'wow.gif'];
