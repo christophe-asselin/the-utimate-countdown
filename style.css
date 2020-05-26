@@ -31,11 +31,12 @@ html, body {
 
 .rainbow {
     text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    letter-spacing: 5px;
+    font-size: 48px;
+    font-family: "Brush Script MT";
+    padding: 10px;
+    margin: 0px;
 }
+
 .rainbow-text-animated {
     background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
     -webkit-background-clip: text;

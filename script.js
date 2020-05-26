@@ -1,4 +1,4 @@
-const THE_DAY = new Date(2020, 11, 28, 0, 0, 0, 0).getTime();
+const THE_DAY = new Date(2020, 5, 25, 1, 30, 0, 0).getTime();
 
 const LEFT_CELEBRATION_GIF_NAMES = ['banana.gif', 'datboi.gif'];
 const RIGHT_CELEBRATION_GIF_NAMES = ['snoop.gif', 'wow.gif'];
@@ -61,6 +61,7 @@ const timerCallback = () => {
     }
 };
 
-const timer = setInterval(timerCallback, 1000);
+// const timer = setInterval(timerCallback, 1000);
 
-timerCallback();
+// timerCallback();
+letsCelebrate();
