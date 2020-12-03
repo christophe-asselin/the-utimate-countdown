@@ -52,16 +52,23 @@ const letsCelebrate = () => {
 const timerCallback = () => {
     const now = (new Date).getTime();
 
-    const timeDifference = THE_DAY - now;
+    /* --- counter --- */
 
-    if (timeDifference > 0) {
-        updateTimer(timeDifference);
-    } else {
-        letsCelebrate();
-    }
+    const timeDifference = now - THE_DAY;
+
+    updateTimer(timeDifference);
+
+    /* --- countdown --- */
+
+    // const timeDifference = THE_DAY - now;
+
+    // if (timeDifference > 0) {
+    //     updateTimer(timeDifference);
+    // } else {
+    //     letsCelebrate();
+    // }
 };
 
-// const timer = setInterval(timerCallback, 1000);
+const timer = setInterval(timerCallback, 1000);
 
-// timerCallback();
-letsCelebrate();
+timerCallback();
